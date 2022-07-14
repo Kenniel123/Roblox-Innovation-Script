@@ -1,0 +1,76 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Roblox Innovation Script", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Cube Tp",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Cube Part1",
+	Callback = function()
+        getgenv().game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-343.157837, 2.74376869, 355.075073, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cube Part2",
+	Callback = function()
+        getgenv().game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3.84208679, 64.680191, -197.82515, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cube Part3",
+	Callback = function()
+        getgenv().game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-161.922043, 37.7588463, -147.204834, -0.923186421, 0.380275965, -0.0558322035, 0.345040321, 0.755971551, -0.556286037, -0.16933465, -0.532820046, -0.829113245)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cube Part4",
+	Callback = function()
+        getgenv().game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(155.793045, 46.2437439, -52.8441086, -0.897622228, 0, 0.440766424, 0, 1, 0, -0.440766424, 0, -0.897622228)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Gear Tp",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Circlet Tp",
+	Callback = function()
+        getgenv().game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(95.5991516, 165.354294, -152.651611, 0, 0, 1, 0, 1, -0, -1, 0, 0)	
+    end    
+})
+
+Tab:AddButton({
+	Name = "photo hat",
+	Callback = function()
+        getgenv().game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1.501315, 17.5520954, -126.236336, -1, 0, 0, 0, 1, 0, 0, 0, -1)	
+    end    
+})
+
+Tab:AddButton({
+	Name = "Replay Rejoin For it",
+	Callback = function()
+    end    
+})
+
+Tab:AddButton({
+	Name = "Vote u do manually at Stands",
+	Callback = function()
+    end    
+})
+
+OrionLib:MakeNotification({
+	Name = "Tps",
+	Content = "Credit:kenniel#1824 Made Script",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
